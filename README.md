@@ -6,9 +6,7 @@ In this implementation I used sqlite3 in Python to build and access my database.
 
 SQL is used in many industies to manage large amount of data. Building this seems to me an essential stepping stone as I work towards a career in machine learning and data science.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of how created the Relational Database.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo](https://youtu.be/jSRrxVZq8BM)
 
 # Relational Database
 
