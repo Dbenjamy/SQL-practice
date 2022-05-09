@@ -47,11 +47,11 @@ while True:
 00 will import the whole file.\n>')
             if entries == '/back':
                 break
+            elif not entries.isnumeric():
+                print('Please enter a valid number.')
             elif entries == '00':
                 dbf.import_data(connection,csv_name)
                 break
-            elif not entries.isnumeric():
-                print('Please enter a valid number.')
             else:
                 entries = int(entries)
                 dbf.import_data(connection,csv_name,entries=int(entries))

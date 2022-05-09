@@ -79,6 +79,7 @@ def import_data(connection,csv_name,entries=None):
     else:
         (pd.read_csv(csv_name)
         .to_sql(table_name,connection, if_exists='append', index=False))
+    connection.commit()
 
 def add_entry(cursor):
     table_name = get_table_names(cursor)
